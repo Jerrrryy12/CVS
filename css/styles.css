@@ -1,6 +1,7 @@
 body {
   background-color: #b4ff9f;
   text-align: center;
+  margin: 0;
   font-family: "Merriweather", serif;
   color: rgba(0, 0, 0, 0.719);
 }
@@ -15,10 +16,10 @@ body {
 .nature-img {
   position: absolute;
   margin: 90px auto;
-  left: 370px;
+  left: 120px;
   top: 2px;
-  width: 600px;
-  height: 500px;
+  width: 70%;
+  height: 80%;
 }
 .name {
   font-size: 5rem;
@@ -41,6 +42,7 @@ img {
 }
 
 .top-container {
+  position: relative;
   width: 400px;
   padding: 200px;
   margin: 50px auto;
@@ -121,7 +123,7 @@ hr {
 
 .bottom-container {
   background-color: #00ff66;
-  position: absolute;
+  position: relative;
   width: 100%;
   margin-top: 50px;
   padding: 50px 0 10px 0;
